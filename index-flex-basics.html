@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Básico</title>
+    <style>
+        #container{
+            display: flex;
+            background-color: cadetblue;
+            height: 200px;
+            gap: 10px;
+            /*flex-direction: row;
+             flex-direction: row-reverse;
+            flex-direction: column;
+            flex-direction: column-reverse;
+            flex-wrap: wrap
+            flex-wrap: nowrap
+            flex-wrap: wrap-reverse;
+            flex: 1;
+
+            /*largura*/
+            /*
+            justify-content: center;
+            justify-content: flex-start;
+            justify-content: flex-end;
+            justify-content: space-around;
+            justify-content: space-between;
+
+            /*altura*/
+            /*
+            align-items: center;
+            align-items: flex-start;
+            align-items: flex-end;
+            */  
+            
+            
+            align-items: stretch; /*tirar a altura do elemento filho*/
+
+        }
+        
+        #um {
+           /* flex: 1; */ 
+            width: 100px ;         
+            height: 50px;
+            background-color: rgb(251, 255, 1);
+            
+        }
+        #dois {
+            /* flex: 1; */  
+            width: 100px ; 
+            height: 50px;
+            background-color: rgb(251, 255, 1);
+            
+        }
+        #tres {
+            /* flex: 2; */
+            width: 100px ; 
+            height: 50px;
+            background-color: rgb(251, 255, 1);
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Referências Flex
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    https://www.w3schools.com/css/css3_flexbox.asp
+    Combinador: https://www.w3schools.com/css/css_combinators.asp
+    -->
+    <div id="container">
+        <div id="um">1</div>
+        <div id="dois">2</div>
+        <div id="tres">3</div>
+        
+       
+        
+    </div>
+    
+</body>
+</html>
